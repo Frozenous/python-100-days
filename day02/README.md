@@ -1,13 +1,18 @@
-#Day 2 - Tip Calculator
+# Day 2 - Tip Calculator
 
-Notes for the day:
--for human readability numbers can be written with underscores where we would normally place commas for example, 1,000,000 or 1 million would be 1_000_000
+A tiny CLI program that asks for a bill amount, preferred tip, and number of people and outputs the amount owed for each person
 
--Maths Operations include ** which is a baked in exponent for python as well as // which does division like / but returns an int instead of a float and removes all numbers after the decimal it does not round properly but just removes the decimal(floors the number)
-
--f-strings are a handy tool to insert variables with different types into a string
+## Notes 
+- For readability, numeric literals can use underscores: `1_000_000`.
+- Math operators:
+  - `**` = exponentiation
+  - `//` = floor division (rounds down toward negative infinity), unlike `/` which returns a float
+- f-strings are handy for formatting output with variables: `f"{value:.2f}"`
 
 
 ## Run
+From the repo root: 
+
 ```bash
-python ./main.py
+python day02/main.py
+```

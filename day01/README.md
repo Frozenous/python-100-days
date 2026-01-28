@@ -1,11 +1,15 @@
-# Day 1 - Band Name Generator
-Notes:
--Spaces and indentations matter compared to other languages(i.e. JAVA and JavaScript)
+# Day 1 — Band Name Generator
 
--Pythons concise handling of print, input(prompt), and final output in one line is unique compared to my experiences with other languages.
+A tiny CLI program that asks for a city and a pet name and prints a band name.
 
--Variable declaration is more simplistic, ability to create a variable without type 
+## Notes
+- Python is indentation-sensitive (whitespace matters).
+- `print()` and `input(prompt)` make quick CLI programs really concise.
+- Variables are dynamically typed (you don’t declare a type up front).
 
 ## Run
+From the repo root:
+
 ```bash
-python ./main.py
+python day01/main.py
+```
